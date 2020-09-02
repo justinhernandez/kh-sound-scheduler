@@ -1,0 +1,18 @@
+{
+  "name": "sound-scheduler",
+  "version": "0.0.1",
+  "description": "helps creates the sound schedule",
+  "main": "schedule.js",
+  "scripts": {
+    "lint": "npx eslint -c *.js",
+    "prettier": "npx prettier --write *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0"
+  }
+}
